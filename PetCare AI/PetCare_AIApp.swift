@@ -12,7 +12,8 @@ import SwiftData
 struct PetCare_AIApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Pet.self,
+            PetDiary.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

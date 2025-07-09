@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B1903D12E13B7A00028F3F3 /* 开发计划与流程.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B1903C92E13B7A00028F3F3 /* 开发计划与流程.md */; };
+		4B1903D22E13B7A00028F3F3 /* TRD-技术需求文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B1903CB2E13B7A00028F3F3 /* TRD-技术需求文档.md */; };
+		4B1903D32E13B7A00028F3F3 /* PRD-产品需求文档.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B1903CA2E13B7A00028F3F3 /* PRD-产品需求文档.md */; };
+		4B1903D42E13B7A00028F3F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B1903CF2E13B7A00028F3F3 /* README.md */; };
+		4B1903D52E13B7A00028F3F3 /* UI设计规范.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B1903C72E13B7A00028F3F3 /* UI设计规范.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4B1903AB2E13B5410028F3F3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,11 @@
 		4B19039A2E13B53F0028F3F3 /* PetCare AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PetCare AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1903AA2E13B5410028F3F3 /* PetCare AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetCare AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1903B42E13B5410028F3F3 /* PetCare AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetCare AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1903C72E13B7A00028F3F3 /* UI设计规范.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "UI设计规范.md"; sourceTree = "<group>"; };
+		4B1903C92E13B7A00028F3F3 /* 开发计划与流程.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "开发计划与流程.md"; sourceTree = "<group>"; };
+		4B1903CA2E13B7A00028F3F3 /* PRD-产品需求文档.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "PRD-产品需求文档.md"; sourceTree = "<group>"; };
+		4B1903CB2E13B7A00028F3F3 /* TRD-技术需求文档.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "TRD-技术需求文档.md"; sourceTree = "<group>"; };
+		4B1903CF2E13B7A00028F3F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,7 @@
 		4B1903912E13B53F0028F3F3 = {
 			isa = PBXGroup;
 			children = (
+				4B1903D02E13B7A00028F3F3 /* 小狗小猫App */,
 				4B19039C2E13B53F0028F3F3 /* PetCare AI */,
 				4B1903AD2E13B5410028F3F3 /* PetCare AITests */,
 				4B1903B72E13B5410028F3F3 /* PetCare AIUITests */,
@@ -90,6 +104,50 @@
 				4B1903B42E13B5410028F3F3 /* PetCare AIUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4B1903C82E13B7A00028F3F3 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				4B1903C72E13B7A00028F3F3 /* UI设计规范.md */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		4B1903CC2E13B7A00028F3F3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				4B1903C92E13B7A00028F3F3 /* 开发计划与流程.md */,
+				4B1903CA2E13B7A00028F3F3 /* PRD-产品需求文档.md */,
+				4B1903CB2E13B7A00028F3F3 /* TRD-技术需求文档.md */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		4B1903CD2E13B7A00028F3F3 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4B1903CE2E13B7A00028F3F3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		4B1903D02E13B7A00028F3F3 /* 小狗小猫App */ = {
+			isa = PBXGroup;
+			children = (
+				4B1903C82E13B7A00028F3F3 /* design */,
+				4B1903CC2E13B7A00028F3F3 /* docs */,
+				4B1903CD2E13B7A00028F3F3 /* resources */,
+				4B1903CE2E13B7A00028F3F3 /* src */,
+				4B1903CF2E13B7A00028F3F3 /* README.md */,
+			);
+			path = "小狗小猫App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1903D12E13B7A00028F3F3 /* 开发计划与流程.md in Resources */,
+				4B1903D22E13B7A00028F3F3 /* TRD-技术需求文档.md in Resources */,
+				4B1903D32E13B7A00028F3F3 /* PRD-产品需求文档.md in Resources */,
+				4B1903D42E13B7A00028F3F3 /* README.md in Resources */,
+				4B1903D52E13B7A00028F3F3 /* UI设计规范.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
